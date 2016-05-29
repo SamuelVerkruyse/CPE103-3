@@ -1,0 +1,6 @@
+First, the user will be prompted to select a table size.
+Then, they will be asked whether they want to user hash 1 or hash 2.
+The user will be allowed to choose to insert, delete, find, figure out if the table is empty, and print out the hash table. 
+The print method will print the four different hash collision methods.
+It will also tell how many collisions happened.
+The user will be able to continue until they press q.

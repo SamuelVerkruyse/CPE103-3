@@ -1,0 +1,271 @@
+Type your table size
+8
+Type 1 for Hash 1, Type 2 for Hash 2
+1
+Choose one of the following operations:
+-add/insert (enter the letter a)
+-find (enter the letter f)
+-delete (enter the letter d)
+-is empty (enter the letter e)
+-print (enter the letter p)
+-Quit (enter the letter q)
+a
+Enter the integer you want to add:
+14
+14 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+17
+17 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+19
+19 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+35
+35 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+6
+6 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+3
+3 inserted
+Make a choice from the menu
+p
+0: 
+1: 17 
+2: 
+3: 3 35 19 
+4: 
+5: 
+6: 6 14 
+7: 
+Chaining
+0: 
+1: 17
+2: 
+3: 19
+4: 35
+5: 3
+6: 14
+7: 6
+4 collisions
+Quadratic Probing
+0: 
+1: 17
+2: 6
+3: 19
+4: 35
+5: 3
+6: 14
+7: 
+5 collisions
+Bucket Hashing
+0: 14
+1: 19
+2: 17
+3: 35
+4: 6
+5: 3
+6: 
+7: 
+13 collisions
+Make a choice from the menu
+d
+Enter the integer you want to delete:
+35
+If 35 was in the hashtable, it was removed
+Make a choice from the menu
+p
+0: 
+1: 17 
+2: 
+3: 3 19 
+4: 
+5: 
+6: 6 14 
+7: 
+Chaining
+0: 
+1: 17
+2: 
+3: 19
+4: 3
+5: 
+6: 14
+7: 6
+2 collisions
+Quadratic Probing
+0: 3
+1: 17
+2: 
+3: 19
+4: 
+5: 
+6: 14
+7: 6
+3 collisions
+Bucket Hashing
+0: 14
+1: 19
+2: 17
+3: 6
+4: 3
+5: 
+6: 
+7: 
+8 collisions
+Make a choice from the menu
+q
+
+Type your table size
+20
+Type 1 for Hash 1, Type 2 for Hash 2
+2
+Choose one of the following operations:
+-add/insert (enter the letter a)
+-find (enter the letter f)
+-delete (enter the letter d)
+-is empty (enter the letter e)
+-print (enter the letter p)
+-Quit (enter the letter q)
+a
+Enter the integer you want to add:
+1934
+1934 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+43
+43 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+23
+23 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+123
+123 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+42
+42 inserted
+Make a choice from the menu
+a
+Enter the integer you want to add:
+53
+53 inserted
+Make a choice from the menu
+f
+Enter the integer you want to find:
+53
+Your integer was found
+Make a choice from the menu
+e
+Not Empty
+Make a choice from the menu
+d
+Enter the integer you want to delete:
+42
+If 42 was in the hashtable, it was removed
+Make a choice from the menu
+p
+0: 
+1: 
+2: 
+3: 123 23 43 
+4: 
+5: 
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 53 
+14: 1934 
+15: 
+16: 
+17: 
+18: 
+19: 
+Chaining
+0: 
+1: 
+2: 
+3: 43
+4: 23
+5: 123
+6: 
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 53
+14: 1934
+15: 
+16: 
+17: 
+18: 
+19: 
+3 collisions
+Quadratic Probing
+0: 
+1: 
+2: 
+3: 43
+4: 23
+5: 
+6: 
+7: 123
+8: 
+9: 
+10: 
+11: 
+12: 
+13: 53
+14: 1934
+15: 
+16: 
+17: 
+18: 
+19: 
+2 collisions
+Bucket Hashing
+0: 43
+1: 23
+2: 123
+3: 
+4: 
+5: 
+6: 53
+7: 
+8: 
+9: 
+10: 
+11: 
+12: 1934
+13: 
+14: 
+15: 
+16: 
+17: 
+18: 
+19: 
+3 collisions
+Make a choice from the menu
+q
